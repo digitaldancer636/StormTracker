@@ -11,7 +11,7 @@ const containerStyle = {
 const Map = ({ center, zoom }) => {
   return (
     <div className="map">
-        <LoadScript googleMapsApiKey="AIzaSyAgBdG2tOhOv8Z1Ng_Z380K06U7mt9lgtE" >
+        <LoadScript googleMapsApiKey="YOURAPIKEY" >
             <GoogleMap
                 mapContainerStyle={containerStyle}
                 defaultCenter={ center }
